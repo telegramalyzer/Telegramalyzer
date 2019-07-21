@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119768861-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119768861-1');
+    </script>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Telegramalyzer - Your Telegram Chat Statistics</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <div class="telegram-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 240" opacity="0.3">
+            <defs>
+                <linearGradient id="b" x1="0.6667" y1="0.1667" x2="0.4167" y2="0.75">
+                    <stop stop-color="#37aee2" offset="0" />
+                    <stop stop-color="#1e96c8" offset="1" />
+                </linearGradient>
+                <linearGradient id="w" x1="0.6597" y1="0.4369" x2="0.8512" y2="0.8024">
+                    <stop stop-color="#eff7fc" offset="0" />
+                    <stop stop-color="#fff" offset="1" />
+                </linearGradient>
+            </defs>
+            <circle cx="120" cy="120" r="120" fill="url(#b)" />
+            <path fill="#c8daea" d="m98 175c-3.8876 0-3.227-1.4679-4.5678-5.1695L82 132.2059 170 80" />
+            <path fill="#a9c9dd" d="m98 175c3 0 4.3255-1.372 6-3l16-15.558-19.958-12.035" />
+            <path fill="url(#w)" d="m100.04 144.41 48.36 35.729c5.5185 3.0449 9.5014 1.4684 10.876-5.1235l19.685-92.763c2.0154-8.0802-3.0801-11.745-8.3594-9.3482l-115.59 44.571c-7.8901 3.1647-7.8441 7.5666-1.4382 9.528l29.663 9.2583 68.673-43.325c3.2419-1.9659 6.2173-0.90899 3.7752 1.2584"
+            />
+        </svg>
+    </div>
+
+    <div class="telegramalyzer-logo-container">
+        <img class="logo" src="./banner.jpg">
+    </div>
+
+    <div class="header">
+        <br>
+        <div class="header-text info-text-margin">
+
+            Who writes more in your Telegram chat? What are your most used emojis? Did you write more last year than this year?
+            <b>Find out in a few minutes with Telegramalyzer. </b> We show you how to backup your Telegram chat history and
+            show you all the most relevant charts and statistics.
+            <br>
+            <br>
+
+            <b>
+                <p style="color: darkred;">We do NOT upload your logs onto our server when you analyze your logs. Everything happens locally in your
+                    browser. You can even disconnect your internet connection before uploading your logs, it will work anyway.</p>
+            </b>
+            <br>
+            <br>
+            <u>
+                <b style="font-size:20px">How do I get my Telegram chat log (in 5 minutes)?</b>
+            </u>
+            <br>
+            <div style="color: rgb(224, 136, 4); font-weight: bold;">You need a PC with the Google Chrome browser for this</div>
+            <br> Unfortunately Telegram doesn't provide a built-in functionality for creating chat backups. Luckily for us, a
+            developer called pagpagnet created a very good
+            <b>Chrome extension</b> to backup your Telegram chat. You can download it from the
+            <a href="https://chrome.google.com/webstore/detail/save-telegram-chat-histor/kgldnbjoeinkkgpphaaljlfhfdbndfjc">
+                <b>Chrome Store</b>
+            </a> or have a look at the source code on
+            <a href="https://github.com/pigpagnet/save-telegram-chat-history">
+                <b>Github</b>
+            </a>. It only takes a few clicks to backup your chat log. This
+            <b>video tutorial</b> should help you getting finished quickly.
+            <br>
+            <br>
+
+
+            <iframe width="420" height="236" src="https://www.youtube-nocookie.com/embed/P3h5rvGz4-w?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+
+            <br>
+            <br>
+            <i>Disclaimer:</i> We are not affiliated with the developer of this extension so we have no influence on it.
+        </div>
+        <br>
+        <a href="https://www.amazon.com/Zero-Crypto-Become-expert-Cryptocurrencies-ebook/dp/B07CLN6QL8">
+            <img class="pulse-light info-text-margin" src="./from_zero_to_crypto_amazon.jpg">
+        </a>
+    </div>
+
+	<b>We are closing down today (05.21.2019). If you want to analyze your chat logs, do it now. Thank you everyone for using this service. It was a pleasure working on this project. We might come back hosted on Github pages someday. </b>
+    <input class="inputfile" type="file" id="file" onchange="fileChoose(this.files)">
+    <label for="file">
+        <figure class="pulse">
+            <svg class="loadingSvg" xmlns="http://www.w3.org/2000/svg" width="80" height="78" viewBox="0 0 20 17">
+                <path d="M10 0l-5.2 4.9h3.3v5.1h3.8v-5.1h3.3l-5.2-4.9zm9.3 11.5l-3.2-2.1h-2l3.4 2.6h-3.5c-.1 0-.2.1-.2.1l-.8 2.3h-6l-.8-2.2c-.1-.1-.1-.2-.2-.2h-3.6l3.4-2.6h-2l-3.2 2.1c-.4.3-.7 1-.6 1.5l.6 3.1c.1.5.7.9 1.2.9h16.3c.6 0 1.1-.4 1.3-.9l.6-3.1c.1-.5-.2-1.2-.7-1.5z"></path>
+            </svg>
+        </figure>
+        <div>
+            <span>Analyze your Telegram log…</span>
+        </div>
+    </label>
+
+    <div class="shareButton" id="shareButton">
+        <figure class="shareSymbol">
+            <?xml version="1.0" ?>
+            <svg enable-background="new 0 0 26 26" width="80" height="78" version="1.1" viewBox="0 0 26 26" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path d="M20.875,8.875c-1.3411255,0-2.5230713,0.6532593-3.2769775,1.647644L9.0714111,6.2593384  C9.1760864,5.8965454,9.25,5.5209961,9.25,5.125C9.25,2.8505859,7.3994141,1,5.125,1S1,2.8505859,1,5.125S2.8505859,9.25,5.125,9.25  c1.3413086,0,2.5234375-0.6534424,3.2772827-1.6480103l8.5264282,4.2632446C16.8239746,12.2281494,16.75,12.6038208,16.75,13  c0,0.3959961,0.0739136,0.7715454,0.1785889,1.1343384L8.4019775,18.397644C7.6480713,17.4032593,6.4661255,16.75,5.125,16.75  C2.8505859,16.75,1,18.6005859,1,20.875S2.8505859,25,5.125,25s4.125-1.8505859,4.125-4.125  c0-0.3961792-0.0739746-0.7718506-0.1787109-1.1347656l8.5264282-4.2632446C18.3515625,16.4715576,19.5336914,17.125,20.875,17.125  C23.1494141,17.125,25,15.2744141,25,13S23.1494141,8.875,20.875,8.875z M5.125,7.75C3.6777344,7.75,2.5,6.5722656,2.5,5.125  S3.6777344,2.5,5.125,2.5S7.75,3.6777344,7.75,5.125S6.5722656,7.75,5.125,7.75z M5.125,23.5  c-1.4472656,0-2.625-1.1777344-2.625-2.625s1.1777344-2.625,2.625-2.625s2.625,1.1777344,2.625,2.625S6.5722656,23.5,5.125,23.5z   M20.875,15.625c-1.4472656,0-2.625-1.1777344-2.625-2.625s1.1777344-2.625,2.625-2.625S23.5,11.5527344,23.5,13  S22.3222656,15.625,20.875,15.625z"
+                    fill="#2c85c0" />
+            </svg>
+        </figure>
+        <div>
+            <span>Share your Statistics</span>
+        </div>
+    </div>
+
+    <div class="shareArea" id="shareArea" style='display: none;'>
+        <div>In order to be able to easily share your statistics, we need to transmit your statistics onto our secure server.
+            Only click "Generate sharing link" when you are okay with that. </div>
+        <div class="shareExplText"> We do NOT save your chat itself, just the statistics that you can see here. We do not sell your data, we do not even
+            look at it. Every shared data will automatically be deleted after seven days (so the link won't work anymore
+            after a week).</div>
+        <br>
+        <textarea class="shareLinkBox" id="shareText" rows="2" style="width:80%;" readonly></textarea>
+        <button class="generateButton" id="generateButton">Generate sharing link</button>
+        <div id="copySuccess" class="copy-idle ">Successfully generated link</div>
+    </div>
+
+    <div class="spinner" id="loadingSpinner"></div>
+
+    <img id="example" src=./example_min.jpg >
+
+    <div class="uploadedText">
+        <div id="error-message" class="error-message "></div>
+        <textarea id="uploadedText" rows="8" style="width:100%;" readonly></textarea>
+    </div>
+
+    <div class="chart-1 chart">
+        <div id="avgChart">
+            <div class="messageCount" id="messageCount"></div>
+        </div>
+    </div>
+    <div class="chart-2 chart">
+        <canvas id="pieChart" width="200" height="110"></canvas>
+    </div>
+    <div class="chart-3 chart">
+        <canvas id="monthsChart" width="200" height="130"></canvas>
+    </div>
+    <div class="chart-4 chart">
+        <canvas id="daysChart" width="200" height="130"></canvas>
+    </div>
+    <div class="chart-5 chart">
+        <canvas id="weekdayChart" width="200" height="130"></canvas>
+    </div>
+    <div class="chart-6 chart">
+        <canvas id="hourChart" width="200" height="130"></canvas>
+    </div>
+    <div class="chart-7 chart">
+        <p class="heartText" id="heartText"></p>
+    </div>
+
+    <div class="chart-8 chart">
+        <div class="emoji-container">
+            <p class="emojiChart" id="emojiChart"></p>
+            <div class="emoji-buttons" id="emoji-buttons"></div>
+        </div>
+    </div>
+
+
+
+
+    <footer id="footer">© 2018 by Telegramalyzer - The Telegram logo and trademark belong to their respective owners. We are not affiliated with
+        Telegram
+    </footer>
+
+
+    <script type="text/javascript" src="Chart.js"></script>
+    <script type="text/javascript" charset="utf-8" src="charting.js"></script>
+</body>
+
+</html>
